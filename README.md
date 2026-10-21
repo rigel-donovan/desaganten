@@ -51,10 +51,14 @@ Buka `http://localhost:8000` di browser.
 
 ## Login Default
 
+Jalankan `php artisan db:seed` untuk membuat akun admin awal. Login melalui `http://localhost:8000/login`:
+
 | Role | Email | Password |
 |------|-------|----------|
-| Admin | admin@desa.com | password |
-| User | Register di `/register` | — |
+| Admin | `admin@admin.com` | `password` |
+| User | Daftar melalui `/register` | — |
+
+Ganti password awal admin setelah login, terutama jika aplikasi diakses publik.
 
 ## Struktur URL
 
