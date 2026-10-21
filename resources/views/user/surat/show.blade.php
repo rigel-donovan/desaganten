@@ -123,7 +123,7 @@
                         @foreach($stages as $stageNumber => $stage)
                         <div class="relative pb-8 {{ !$loop->last ? 'border-l-2 ml-4' : '' }} 
                                     {{ ($stage['status'] ?? 'pending') === 'completed' ? 'border-green-300' : 
-                                       (($stage['status'] ?? 'pending') === 'in_progress' ? 'border-blue-300' : 'border-gray-300') }}">>
+                                       (($stage['status'] ?? 'pending') === 'in_progress' ? 'border-blue-300' : 'border-gray-300') }}">
                             
                             <!-- Stage Icon -->
                             <div class="absolute -left-6 mt-1">
